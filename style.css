@@ -1,0 +1,68 @@
+.contenedor-1 {
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 9.5rem;
+  padding-bottom: 9.44rem;
+}
+
+.contenedor-2 {
+  background-color: rgb(255, 255, 255);
+  width: 20rem;
+  height: 31.06rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.25rem;
+}
+
+.contenedor-imagen {
+  width: 18rem;
+  height: 18rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.625rem;
+}
+
+.imagen {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.texto-1 {
+  width: 18rem;
+  height: 3.5rem;
+  color: #1f314f;
+  text-align: center;
+  font-family: "Outfit";
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.texto-2 {
+  width: 16rem;
+  height: 3.5625rem;
+  color: #7d889e;
+  text-align: center;
+  margin-left: 2rem;
+  font-family: Outfit;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.01175rem;
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor-1 {
+    width: 23.4375rem;
+    height: 41.6875rem;
+    padding: 5.3125rem 1.6875rem 5.3125rem 1.75rem;
+  }
+}
